@@ -41,25 +41,29 @@
 
         <div class="bodytext">
 
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" value="Jane"><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" value="johndoe@hotmail.com"><br>
 
-          <input type="radio" id="booking" name="option" value="booking">
-          <label for="booking">Booking Enquiry</label><br>
-          <input type="radio" id="business" name="option" value="business">
-          <label for="business">Business Enquiry</label><br>
-          <input type="radio" id="other" name="option" value="other">
-          <label for="other">Other</label><br>
-
-          <label for="message">Message:</label><br>
-          <input type="text" id="message" name="message" size="50" value="">
-          <input type="submit" value="Submit"><br>
-          
-        </form> 
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fullname" placeholder="Your name..">
+        
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+        
+            <input type="radio" id="booking" name="option" value="booking">
+            <label for="booking">Booking Enquiry</label><br>
+            <input type="radio" id="business" name="option" value="business">
+            <label for="business">Business Enquiry</label><br>
+            <input type="radio" id="other" name="option" value="other">
+            <label for="other">Other</label><br>
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
         </div>
+            
         <br>
         <footer>
           <p> <img src="images\facebook.png" width=20px height=20px> <a href="https://www.facebook.com/hennabykaya">Facebook Page</a><br>
